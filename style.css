@@ -1,38 +1,108 @@
+/*positioning*/
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+}
 .border {
-    border: 1px solid black; 
-    background-color: white; 
-  }
-
-
-/*text*/
-pre#first {
-    font-size: 20px;
-    margin-left: 40px;
-    
+    padding: 16px;
+    max-width: 1400px;
 }
 
-pre#second {
-    font-size: 20px;
-    margin-left: 40px;
-    
-}
-
-h1 {
+/*first segment*/
+h1#p1 {
     color: blueviolet;
     font-size: 32px;
-    margin-left: 40px;
 }
+
+p#first {
+    font-size: 20px;
+}
+
+#first-segment{
+    display: flex;
+}
+
+.first-paragraph { 
+    padding: 2rem;
+}
+
+/*second segment*/
 h1#p2 {
     color: cornflowerblue;
     font-size: 32px;
-    margin-left: 40px;
 }
+
+p#second {
+    font-size: 20px;
+}
+
+#second-segment {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.second-paragraph {
+    padding: 5rem;
+}
+
+/*third segment*/
+h1#p3 {
+    color: cadetblue;
+    font-size: 32px;
+}
+
+p#third {
+    font-size: 20px;
+}
+
+#third-segment {
+    display: flex;
+    max-width: 750px;
+    text-align: left;
+    margin-left: 70px;
+}
+.third-paragraph {
+    padding: 1rem;
+}
+
+
+/*fourth segment*/
+h1#p4 {
+    color: brown;
+    font-size: 32px;
+    text-align: center;
+}
+
+p#fourth {
+    font-size: 20px;
+    text-align: left;
+}
+
+#fourth-segment {
+    display: flex;
+    padding: 1rem;
+    border: 1px solid black;
+}
+.fourth-paragraph {
+    padding: 1rem;
+}
+
 /*images*/
 #head{
     display: block;
-    width: 1380px;
-    height: 100%;
+    width: 50%;
+}
+
+#nerdguy {
+    display: block;
+}
+
+#scam {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
 }
