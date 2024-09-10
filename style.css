@@ -1,0 +1,38 @@
+.border {
+    border: 1px solid black; 
+    background-color: white; 
+  }
+
+
+/*text*/
+pre#first {
+    font-size: 20px;
+    margin-left: 40px;
+    
+}
+
+pre#second {
+    font-size: 20px;
+    margin-left: 40px;
+    
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 32px;
+    margin-left: 40px;
+}
+h1#p2 {
+    color: cornflowerblue;
+    font-size: 32px;
+    margin-left: 40px;
+}
+/*images*/
+#head{
+    display: block;
+    width: 1380px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
