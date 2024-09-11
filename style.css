@@ -1,3 +1,57 @@
+.raleway-ruddy {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
 /*positioning*/
 body {
     margin: 0;
@@ -15,14 +69,22 @@ body {
 h1#p1 {
     color: blueviolet;
     font-size: 32px;
+    font-family: "Merriweather", sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
 
 p#first {
     font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
 
 #first-segment{
-    display: flex;
+    display: block;
+    justify-content: start;
+    max-width: 900px;
 }
 
 .first-paragraph { 
@@ -31,12 +93,18 @@ p#first {
 
 /*second segment*/
 h1#p2 {
-    color: cornflowerblue;
+    color: cadetblue;
     font-size: 32px;
+    font-family: "Merriweather", sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
 
 p#second {
     font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
 
 #second-segment {
@@ -53,10 +121,16 @@ p#second {
 h1#p3 {
     color: cadetblue;
     font-size: 32px;
+    font-family: "Merriweather", sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
 
 p#third {
     font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
 
 #third-segment {
@@ -75,17 +149,24 @@ h1#p4 {
     color: brown;
     font-size: 32px;
     text-align: center;
+    font-family: "Merriweather", sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
 
 p#fourth {
     font-size: 20px;
     text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
 
 #fourth-segment {
     display: flex;
     padding: 1rem;
     border: 1px solid black;
+    border-radius: 2%;
 }
 .fourth-paragraph {
     padding: 1rem;
@@ -93,16 +174,21 @@ p#fourth {
 
 /*images*/
 #head{
-    display: block;
-    width: 50%;
+    display: flex;
+    width: 1400px;
+    height: 700px;
+    border-radius: 5px;
+    object-fit: cover;
 }
 
 #nerdguy {
     display: block;
+    border-radius: 2%;
 }
 
 #scam {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 2%;
 }
